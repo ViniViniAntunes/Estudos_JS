@@ -2,6 +2,9 @@ const subtrair = document.querySelector("#subtrair");
 const somar = document.querySelector("#somar");
 const controle = document.querySelectorAll("[data-controle]");
 const estatisticas = document.querySelectorAll("[data-estatistica]");
+const coresRobo = document.querySelectorAll("[data-cor]");
+const imagemRobo = document.querySelector("[data-imagem-robo]");
+
 const pecas = {
     "bracos": {
         "forca": 29,
@@ -9,7 +12,7 @@ const pecas = {
         "energia": -21,
         "velocidade": -5
     },
-
+    
     "blindagem": {
         "forca": 41,
         "poder": 20,
@@ -36,6 +39,14 @@ const pecas = {
     }
 };
 
+coresRobo.forEach( (elemento) => {
+    elemento.addEventListener("click", (evento) => {
+        const corAtual = imagemRobo.src.split("2000_")[1].split(".")[0];
+        let novaCor = evento.target.value;
+        trocaCor(corAtual, novaCor);
+    });
+});
+
 controle.forEach( (elemento) => {
     elemento.addEventListener("click", (evento) => {
         let operacao = evento.target.dataset.controle;
@@ -44,10 +55,6 @@ controle.forEach( (elemento) => {
         manipulaDados(operacao, controle);
         atualizaEstatisticas(peca, operacao);
     });
-});
-
-robotron.addEventListener("click", () => {
-    console.log("Click no robô");
 });
 
 function manipulaDados(operacao, controle) {
@@ -63,10 +70,16 @@ function manipulaDados(operacao, controle) {
 function atualizaEstatisticas(peca, operacao) {   
     estatisticas.forEach( (elemento) => {
         let item = elemento.dataset.estatistica;
+        
         if(operacao === '-') {
             elemento.textContent = parseInt(elemento.textContent) - pecas[peca][item];
         } else if(operacao === '+') {
             elemento.textContent = parseInt(elemento.textContent) + pecas[peca][item];
         };
     });
+};
+
+function trocaCor(corAtual, novaCor) {
+    let pathImagem = document.querySelector("[data-imagem-robo]").src.replace(corAtual, novaCor).split("DOM/")[1];
+    imagemRobo.setAttribute("src", pathImagem);
 };
