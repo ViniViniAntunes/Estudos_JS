@@ -14,13 +14,13 @@ const pecas = {
         "forca": 41,
         "poder": 20,
         "energia": 0,
-        "velocidade": -20
+        "velocidade": -40
     },
     "nucleos":{
         "forca": 0,
-        "poder": 7,
-        "energia": 48,
-        "velocidade": -24
+        "poder": 20,
+        "energia": 58,
+        "velocidade": 5
     },
     "pernas":{
         "forca": 27,
@@ -31,8 +31,8 @@ const pecas = {
     "foguetes":{
         "forca": 0,
         "poder": 28,
-        "energia": 0,
-        "velocidade": -2
+        "energia": 5,
+        "velocidade": 42
     }
 };
 
@@ -42,7 +42,7 @@ controle.forEach( (elemento) => {
         let controle = evento.target.parentNode;
         let peca = evento.target.dataset.peca;
         manipulaDados(operacao, controle);
-        atualizaEstatisticas(peca);
+        atualizaEstatisticas(peca, operacao);
     });
 });
 
@@ -53,16 +53,20 @@ robotron.addEventListener("click", () => {
 function manipulaDados(operacao, controle) {
     let peca = controle.querySelector("[data-contador]");
 
-    if(operacao == "-") {
+    if(operacao === "-") {
         peca.value = parseInt(peca.value) - 1;
-    } else if(operacao == "+") {
+    } else if(operacao === "+") {
         peca.value = parseInt(peca.value) + 1;
     };
 };
 
-function atualizaEstatisticas(peca) {   
+function atualizaEstatisticas(peca, operacao) {   
     estatisticas.forEach( (elemento) => {
         let item = elemento.dataset.estatistica;
-        elemento.textContent = parseInt(elemento.textContent) + pecas[peca][item];
+        if(operacao === '-') {
+            elemento.textContent = parseInt(elemento.textContent) - pecas[peca][item];
+        } else if(operacao === '+') {
+            elemento.textContent = parseInt(elemento.textContent) + pecas[peca][item];
+        };
     });
 };
