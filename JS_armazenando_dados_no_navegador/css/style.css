@@ -3,6 +3,12 @@ html {
     height: 100%;
     font-family: 'Roboto', cursive;
 }
+.titulo {
+    display: flex;
+    font-family: 'Roboto', cursive;
+    padding: 1em;
+    text-align: center;
+}
 
 .conteudo {
     padding: 10vh 3em 0;
