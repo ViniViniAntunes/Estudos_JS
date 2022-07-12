@@ -19,9 +19,12 @@ form.addEventListener("submit", (evento) => {
     };
     
     if (elementoExiste) {
+        
         itemAtual.id = elementoExiste.id;
         atualizaElemento(itemAtual);
+        itens[elementoExiste.id] = itemAtual;
     } else {
+    
         itemAtual.id = itens.length;
         criaElemento(itemAtual);
         itens.push(itemAtual);
