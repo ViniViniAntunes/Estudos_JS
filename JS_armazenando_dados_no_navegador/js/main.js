@@ -11,13 +11,22 @@ form.addEventListener("submit", (evento) => {
     
     const nome = evento.target.elements["nome"];
     const quantidade = evento.target.elements["quantidade"];
+    const elementoExiste = itens.find( elemento => elemento.nome === nome.value );
     
     const itemAtual = {
         "nome": nome.value,
         "quantidade": quantidade.value
     };
     
-    criaElemento(itemAtual);
+    if (elementoExiste) {
+        itemAtual.id = elementoExiste.id;
+        atualizaElemento(itemAtual);
+    } else {
+        itemAtual.id = itens.length;
+        criaElemento(itemAtual);
+        itens.push(itemAtual);
+    };
+
     armazenaNoLocalStorage(itemAtual);
     
     nome.value = "";
@@ -31,6 +40,7 @@ function criaElemento(item) {
 
     const qtdItem = document.createElement("strong");
     qtdItem.innerHTML = item.quantidade;
+    qtdItem.dataset.id = item.id;
 
     novoItem.appendChild(qtdItem);
     novoItem.innerHTML += item.nome;
@@ -39,7 +49,11 @@ function criaElemento(item) {
 
 };
 
-function armazenaNoLocalStorage(item) {
-    itens.push(item);
+function armazenaNoLocalStorage() {
     localStorage.setItem("itens", JSON.stringify(itens));
 };
+
+function atualizaElemento(item) {
+    document.querySelector(`[data-id="${item.id}"]`).innerHTML = item.quantidade; 
+};
+
