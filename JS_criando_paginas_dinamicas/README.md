@@ -17,7 +17,7 @@
    Neste projeto, utilizei alguns recursos atuais do JavaScript, como constantes, variáveis, <code>querySelector</code>, template string, eventos de teclado e de mouse e muito mais.
 </p>
 <p>
-    Aqui ainda não utilizei recursos avançados do JavaScript, como integração com backend, APIs do navegador, classes e objetos a fundo.
+    Aqui não utilizei recursos avançados do JavaScript, como integração com backend, APIs do navegador, classes e objetos a fundo.
 </p>
 
 <br>
