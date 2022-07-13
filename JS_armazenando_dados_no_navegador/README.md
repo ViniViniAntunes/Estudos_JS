@@ -35,7 +35,7 @@
 <h2><img src="img/agradecimentos.svg" width=50px/> Agradecimentos </h2>
 
 <ul>
-  <li><a href="https://www.linkedin.com/in/pedromarins/" target="_blank"> Pedro Marins </a> (pela didática)</li>
+  <li><a href="https://www.linkedin.com/in/pedromarins/" target="_blank"> Pedro Marins </a></li>
   <li><a href="https://www.alura.com.br/" target="_blank"> Alura </a></li>
 </ul>
 

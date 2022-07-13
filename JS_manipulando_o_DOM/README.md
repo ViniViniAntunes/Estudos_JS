@@ -16,7 +16,7 @@
 <h2><img src="img/descricao.png" width=50px/> Descrição </h2>
 
 <p>
-  Para salvar a Terra das invasões como em Nova York, Tony Stark teve a brilhante ideia de criar uma legião de robôs para nos proteger dos invasores. Tem tudo pra dar certo.
+  Para salvar a Terra das invasões como em Nova York, Tony Stark teve a brilhante ideia de criar uma legião de robôs para nos proteger dos invasores. Tem tudo pra dar certo. (Contém ironia).
 </p>
 <p>
    Nesse projeto, você pode configurar as peças para montar o seu robô para juntar as forças de defesa do planeta. Para montar o seu robô você precisa adicionar peças na engrenagem que compõe um robô e ver as estatísticas atualizadas dinamicamente.
