@@ -13,6 +13,14 @@
 <p>
   Repositório para armazenar alguns estudos com JavaScript
 </p>
+<p>
+  Projetos:
+  <ul>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_armazenando_dados_no_navegador">Projeto Mochila de criança (ou Armazenando dados no navegador)</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_criando_paginas_dinamicas">Projeto Mini Midi (ou Criando páginas dinâmicas)</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_manipulando_o_DOM">Projeto Ultron (ou Manipulando o DOM)</a></li>
+  </ul>
+</p>
 
 <br>
 
