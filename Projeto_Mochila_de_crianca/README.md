@@ -5,6 +5,8 @@
     
 <h1 align="center">
   <h2 align="center"><strong align="center">Projeto Mochila de Criança</strong></h2>
+  <br>
+  <h4 align="center"><strong align="center">(ou Armazenando dados no navegador)</strong></h4>
 </h1>
 
 <br>

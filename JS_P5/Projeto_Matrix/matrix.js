@@ -2,7 +2,7 @@ var tamanhoLetra = 26;
 var fluxos = [];
 
 function setup() {
-  createCanvas(500, 500);
+  createCanvas(800, 800);
   background(0);
   
   var x = 0;
@@ -50,8 +50,8 @@ function Letra(x, y, velocidade, first) {
 
 function Fluxo() {
   this.letras = [];
-  this.totalLetras = int(random(4, 10));
-  this.velocidade = round(random(2, 5));
+  this.totalLetras = int(random(4, 25));
+  this.velocidade = round(random(1, 4));
   
   this.geraLetras = function(x, y) {
     var first = round(random(0, 4)) == 1;

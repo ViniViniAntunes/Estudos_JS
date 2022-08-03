@@ -4,6 +4,8 @@
     
 <h1 align="center">
   <h2 align="center"><strong align="center">Projeto Mini Midi</strong></h2>
+  <br>
+  <h4 align="center"><strong align="center">(ou Criando páginas dinâmicas)</strong></h4>
 </h1>
 
 <br>
