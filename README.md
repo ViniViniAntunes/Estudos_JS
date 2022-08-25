@@ -16,9 +16,23 @@
 <p>
   Projetos:
   <ul>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_armazenando_dados_no_navegador">Projeto Mochila de criança (ou Armazenando dados no navegador)</a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_criando_paginas_dinamicas">Projeto Mini Midi (ou Criando páginas dinâmicas)</a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_manipulando_o_DOM">Projeto Ultron (ou Manipulando o DOM)</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Mochila_de_crianca">Projeto Mochila de criança (ou Armazenando dados no navegador)</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Mini_midi">Projeto Mini Midi (ou Criando páginas dinâmicas)</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Snake">Projeto Snake</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Ultron">Projeto Ultron (ou Manipulando o DOM)</a></li>
+  </ul>
+</p>
+
+<p>
+  Projetos usando p5.js:
+  <ul>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Fireworks">Projeto Fireworks</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Flappy_Bird">Projeto <s>Fake</s> Flappy Bird</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Fractal_tree">Projeto Fractal Tree</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Matrix">Projeto Matrix</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Pendulo_Duplo">Projeto Pêndulo Duplo</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Pi">Projeto <math>&pi;</math></a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Quadtree">Projeto QuadTree</a></li>
   </ul>
 </p>
 
@@ -28,6 +42,7 @@
 
 <ul>
   <li><a href="https://www.alura.com.br/" target="_blank"> Alura </a></li>
+  <li><a href="https://shiffman.net/" target="_blank"> Daniel Shiffman </a></li>
 </ul>
 
 <p>
