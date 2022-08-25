@@ -16,23 +16,23 @@
 <p>
   Projetos:
   <ul>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Mochila_de_crianca">Projeto Mochila de criança (ou Armazenando dados no navegador)</a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Mini_midi">Projeto Mini Midi (ou Criando páginas dinâmicas)</a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Snake">Projeto Snake</a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Ultron">Projeto Ultron (ou Manipulando o DOM)</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Mochila_de_crianca">Mochila de criança (ou Armazenando dados no navegador)</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Mini_midi">Mini Midi (ou Criando páginas dinâmicas)</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Snake">Snake</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/Projeto_Ultron">Ultron (ou Manipulando o DOM)</a></li>
   </ul>
 </p>
 
 <p>
   Projetos usando p5.js:
   <ul>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Fireworks">Projeto Fireworks</a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Flappy_Bird">Projeto <s>Fake</s> Flappy Bird</a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Fractal_tree">Projeto Fractal Tree</a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Matrix">Projeto Matrix</a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Pendulo_Duplo">Projeto Pêndulo Duplo</a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Pi">Projeto <math>&pi;</math></a></li>
-    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Quadtree">Projeto QuadTree</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Fireworks">Fireworks</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Flappy_Bird"><s>Fake</s> Flappy Bird</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Fractal_tree">Fractal Tree</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Matrix">Matrix</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Pendulo_Duplo">Pêndulo Duplo</a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Pi"><math>&pi;</math></a></li>
+    <li><a href="https://github.com/ViniViniAntunes/Estudos_JS/tree/main/JS_P5/Projeto_Quadtree">QuadTree</a></li>
   </ul>
 </p>
 
